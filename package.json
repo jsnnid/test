@@ -1,0 +1,24 @@
+{
+    "name": "jsnnid.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "bagpipe": "^0.3.5",
+        "mysql2": "^2.2.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "build": "node build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jsnnid/jsnnid.github.io.git"
+    },
+    "author": "huoshao",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jsnnid/jsnnid.github.io/issues"
+    },
+    "homepage": "https://github.com/jsnnid/jsnnid.github.io#readme"
+}
