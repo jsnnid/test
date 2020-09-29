@@ -1,9 +1,3 @@
 node_modules
 /cache
-/logs
-/tmp
-/domain
-/uploads
-/data
-/downdata
 /*.txt
