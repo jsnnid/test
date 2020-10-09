@@ -1,0 +1,1037 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1"><title>
+	科学网—新闻
+</title><meta name="description" content="科学网—新闻中心" /><meta name="keywords" content="科学网—科技,国际,交流,科教,新闻" /><link href="/news/css/newscss.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+function SubmitKeyClick(button) 
+{    
+ if (event.keyCode == 13) 
+ {        
+  event.keyCode=9;
+  event.returnValue = false;
+  document.all[button].click(); 
+ }
+}
+function agree(nid,st)
+{
+	location.href='/news/indexpoll.aspx?newpoll='+st+'&nid='+nid;
+}
+function showandhide(showid,hideid)
+        {
+         document.getElementById(showid).style.display="";
+         document.getElementById(hideid).style.display="none";
+          document.getElementById(showid+"1").style.background="#005007";
+         document.getElementById(hideid+"1").style.background="#787878";
+        }
+</script>
+<script language="javascript" type="text/javascript">
+if (document.domain =="paper.sciencenet.cn")
+this.location = "http://paper.sciencenet.cn/paper/";
+</script>
+
+<script type="text/javascript">
+
+function browserRedirect() { 
+
+var sUserAgent= navigator.userAgent.toLowerCase(); 
+
+var bIsIpad= sUserAgent.match(/ipad/i) == "ipad"; 
+
+var bIsIphoneOs= sUserAgent.match(/iphone os/i) == "iphone os"; 
+
+var bIsMidp= sUserAgent.match(/midp/i) == "midp"; 
+
+var bIsUc7= sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4"; 
+
+var bIsUc= sUserAgent.match(/ucweb/i) == "ucweb"; 
+
+var bIsAndroid= sUserAgent.match(/android/i) == "android"; 
+
+var bIsCE= sUserAgent.match(/windows ce/i) == "windows ce"; 
+
+var bIsWM= sUserAgent.match(/windows mobile/i) == "windows mobile"; 
+
+if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) { 
+
+  document.write("<div style='padding-left:4em'><a href=\"http://wap.sciencenet.cn/mobile.php?type=news&cat=yaowen&mobile=1\" style='font-size:2em;color:#ba1413; line-height:2em;text-indent:4em'>点击此处切换为手机版网页</a></div>"); 
+
+} else { 
+
+//window.location= '电脑网站地址'; 
+
+} 
+
+} 
+
+browserRedirect(); 
+
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /></head>
+<body >
+
+<div id="container">
+ 
+  <!--登录-->
+		<iframe src="http://bbs.sciencenet.cn/plus.php?mod=iframelogin" style="width:990px; height:32px; " scrolling="no" frameborder="0"  ></iframe>
+            <!--导航-->
+        <div><link href="http://www.sciencenet.cn/css/indexhead.css" type="text/css" rel="stylesheet" />
+     <div class="logo" style="width:990px">
+          <div  class="lg"  ><a href="http://news.sciencenet.cn/"><img src="/images/news.jpg" width="231" height="84"  alt="科学网新闻频道" /></a></div>
+		 <div class="rg02"  >
+		 <div class="rg" ><span style="float:left;">
+                        <a href="http://www.sciencenet.cn/life/" style="color:#fff">生命科学</a> | 
+                        <a href="http://www.sciencenet.cn/medicine/" style="color:#fff">医学科学</a> | 
+                        <a href="http://www.sciencenet.cn/chemistry/" style="color:#fff">化学科学</a> | 
+                        <a href="http://www.sciencenet.cn/material/" style="color:#fff">工程材料</a> | 
+                        <a href="http://www.sciencenet.cn/information/" style="color:#fff">信息科学</a> | 
+                        <a href="http://www.sciencenet.cn/earth/" style="color:#fff">地球科学</a> | 
+                        <a href="http://www.sciencenet.cn/mathematics/" style="color:#fff">数理科学</a> | 
+                        <a href="http://www.sciencenet.cn/policy/" style="color:#fff">管理综合</a> </span> 
+		  <span style=" float:right;  "> <a href="http://blog.sciencenet.cn/blog-45-1064777.html" style="color:#fff">站内规定</a> | <a href="http://wap.sciencenet.cn/"   style="color:#fff">手机版</a></span></div>
+          <div class="rg01"><span style="float:left;  ">
+                <a href="http://www.sciencenet.cn/">首页</a> | <a href="http://news.sciencenet.cn/">新闻</a> | <a href="http://blog.sciencenet.cn/blog.php">博客</a> | <a href="http://news.sciencenet.cn/ys/">院士</a> | <a href="http://talent.sciencenet.cn/">人才</a> | <a href="http://meeting.sciencenet.cn">会议</a> | <a href="http://fund.sciencenet.cn/">基金</a> | <a href="http://news.sciencenet.cn/morenews-9-1.aspx">大学</a> | <a href="http://news.sciencenet.cn/morenews-7-1.aspx">国际</a> | <a href="http://paper.sciencenet.cn/">论文</a> | <a href="https://v.sciencenet.cn/index">视频</a> | <a href="http://paper.sciencenet.cn/AInews">小柯机器人</a>
+          </span>
+			  <div style="float:right; padding-left:0px;">
+				   <form style="display:inline" method="get" action="http://www.baidu.com/baidu" accept-charset="utf-8" name="f1">
+					  <input style=" width:100px;border:0" maxlength="40" size="31" name="word" />
+					  <input type="submit" style="cursor:pointer; width:56px; font-size:12px; background-color:#880008; border-width:0px; height:16px; color:#fff;" value="本站搜索" />
+					  <input type="hidden" value="2097152" name="ct" />
+					  <input type="hidden" value="3" name="cl" />
+					  <input type="hidden" value="news.sciencenet.cn" name="si" />
+					  <input type="hidden" value="utf-8" name="ie" />
+				  </form>
+			  </div>
+          </div></div>
+        </div></div>   
+        <div style="height:10px; clear:both; line-height:10px">&nbsp;</div> 
+  <div class="main" style="clear:both;  ">
+    <div class="left01">
+      <div class="main01">
+        <div class="left">
+          <div class="ltitbg">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="82%" class="white">头 条</td>
+                <td width="18%" class="more"><a href="/topnews.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          
+          <div class="Black"><a href="/htmlnews/2020/9/445222.shtm"   target="_blank">习近平向国家勋章国家荣誉称号得主颁勋章奖章</a></div>
+          <div class="summary"> <a href="/htmlnews/2020/9/445222.shtm"   target="_blank">全国抗击新冠肺炎疫情表彰大会上，习近平为国家勋章和国家荣誉称号获得者一一颁授勋章奖章。钟南山被授予“共和国勋章”。张伯礼、张定宇、陈薇被授予“人民英雄”国家荣誉称号。</a></div>
+          
+          <div class="Black"><a href="/htmlnews/2020/9/445229.shtm"   target="_blank">科技部：让海内外人才享受“中国机遇”</a></div>
+          <div class="summary"> <a href="/htmlnews/2020/9/445229.shtm"   target="_blank">中国科技部部长王志刚表示，中国将以更加积极的态度、更加务实的举措深入开展国际科技合作，切实保障人才合法权益，让海内外人才在享受“中国机遇”的同时，各得其所、大展其长。</a></div>
+          
+        </div>
+        <div class="center">
+          <div class="ltitbg">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="82%" class="white">要 闻</td>
+                <td width="18%" class="more"><a href="/indexyaowen.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="boxm">
+            <ul>
+           
+    <li>·<a href="/htmlnews/2020/9/445259.shtm" target="_blank" >我国科学家在茶树起源演化研究上取得重要突破</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445253.shtm" target="_blank" >清华大学迎来本科新生 国际学生来自49个国家</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445252.shtm" target="_blank" >中美科学家发现5.5亿年前海底“树叶”</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445224.shtm" target="_blank" >教育类研究生和公费师范生将免试认定教师资格</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445218.shtm" target="_blank" >“吴伟仁星”，你好！</a></li>
+    
+            </ul>
+          </div>
+          <div>
+            <ul>
+               
+    <li>·<a href="/htmlnews/2020/9/445214.shtm" target="_blank" >玉兔二号再立新功！打开月球背面“隐秘角落”</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445228.shtm" target="_blank" >陈薇：抗击疫情，“除了胜利，别无选择”</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445226.shtm" target="_blank" >张定宇：在“风暴之眼”挑战极限</a></li>
+    
+    <li>·<a href="/htmlnews/2020/9/445225.shtm" target="_blank" >张伯礼：“武”胆英雄，率中医药逆行坚守</a></li>
+    
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="photoxbox">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="41%" valign="middle"><div>
+            <a href="/htmlnews/2020/9/445148.shtm" target="_blank"><img src="/upload/news/images/2020/9/2020961856453090.jpg"  style="width:286px; height:160px" alt="“慧眼”直测宇宙最强磁场"/></a></div>
+              <div class="Black01"><a href="/htmlnews/2020/9/445148.shtm" target="_blank"  style="font-size:13px;" >“慧眼”直测宇宙最强磁场</a></div></td>
+            <td width="59%" valign="top"><div class="newtu">
+              <p class="white" style="margin-left:20px;"><a href="/imgnews.aspx" class="white">新闻图集</a></p>
+            </div>
+              <div class="newfonter">
+                <table width="98%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="width:33%" align="center">
+                    <a href="/htmlnews/2020/9/445050.shtm" target="_blank"><img src="/upload/news/images/2020/9/2020941029199180.jpg"  style="width:132px; height:74px" alt="迄今最强黑洞合并事件被发现"/></a>
+                    </td>
+                    <td style="width:33%" align="center"><a href="/htmlnews/2020/9/445020.shtm" target="_blank"><img src="/upload/news/images/2020/9/2020931032405420.jpg"  style="width:132px; height:74px" alt="科学家实现反转浮力"/></a>
+                    </td>
+                    <td style="width:33%" align="center"><a href="/htmlnews/2020/9/445002.shtm" target="_blank"><img src="/upload/news/images/2020/9/202092172731579.jpg"  style="width:132px; height:74px" alt="Hey，你见过暗物质晕吗？"/></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td  valign="top" align="center"><a href="/htmlnews/2020/9/445050.shtm" target="_blank" >迄今最强黑洞合并事件被发现</a>
+                    </td>
+                    <td  valign="top" align="center"><a href="/htmlnews/2020/9/445020.shtm" target="_blank" >科学家实现反转浮力</a>
+                    </td>
+                    <td valign="top" align="center"><a href="/htmlnews/2020/9/445002.shtm" target="_blank" >Hey，你见过暗物质晕吗？</a>
+                    </td>
+                </tr>
+                </table>
+              </div></td>
+          </tr>
+        </table>
+      </div>
+      <div class="main01">
+        <div class="left">
+            <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="31%" align="center" valign="middle" class="green">科报深度</td>
+                <td width="59%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-F-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+              <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445240.shtm"   title="追记曾毅院士：为了做世界一流研究的承诺" target="_blank">追记曾毅院士：为了做世界一流研究的承诺</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445239.shtm"   title="东大校长：高校科研，“向内转化”仍需加强" target="_blank"> 东大校长：高校科研，“向内转化”仍需加强</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445238.shtm"   title="文科研究生要砥砺选题能力" target="_blank">文科研究生要砥砺选题能力</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445237.shtm"   title="高校人才流动困境期待政策关怀" target="_blank">高校人才流动困境期待政策关怀</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445231.shtm"   title="守望农史学" target="_blank">守望农史学</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445230.shtm"   title="王杨：让学生爱上计算机课" target="_blank">王杨：让学生爱上计算机课</a></li>
+            </ul>
+          </div>
+         <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">国 际</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-7-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+              <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445217.shtm"   title="胰岛细胞皮下移植动物试验成功" target="_blank">胰岛细胞皮下移植动物试验成功</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445190.shtm"   title="牛仔裤也能污染地球" target="_blank">牛仔裤也能污染地球 </a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445176.shtm"   title="八节点新型量子通信网试验成功" target="_blank">八节点新型量子通信网试验成功</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445157.shtm"   title="澳研究发现肝脏分泌的一种蛋白质可降血糖" target="_blank">澳研究发现肝脏分泌的一种蛋白质可降血糖</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445128.shtm"   title="英将开展唾液样本检测新冠技术第二阶段试用项目" target="_blank">英将开展唾液样本检测新冠技术第二阶段试用项目</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445079.shtm"   title="全球所有人或能使用同一种疫苗" target="_blank">全球所有人或能使用同一种疫苗</a></li>
+            </ul>
+          </div>
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">高 校</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-9-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+               <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445253.shtm"   title="清华大学迎来本科新生 国际学生来自49个国家" target="_blank">清华大学迎来本科新生 国际学生来自49个国家</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445236.shtm"   title="电子科大研究生开学典礼 新生集体宣誓学术诚信" target="_blank">电子科大研究生开学典礼 新生集体宣誓学术诚信</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445224.shtm"   title="教育类研究生和公费师范生将免试认定教师资格" target="_blank">教育类研究生和公费师范生将免试认定教师资格</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445195.shtm"   title="停课、开除！美多所大学学生违反防疫集会遭罚" target="_blank">停课、开除！美多所大学学生违反防疫集会遭罚</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445194.shtm"   title="教育部：做好秋季学期高校困难学生资助工作" target="_blank">教育部：做好秋季学期高校困难学生资助工作</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445115.shtm"   title="56岁兰大原教育学院院长李硕豪教授病逝" target="_blank">56岁兰大原教育学院院长李硕豪教授病逝</a></li>
+            </ul>
+          </div>
+        
+          
+         
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">信 息</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-Q-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+              <li>·<a href="http://news.sciencenet.cn/htmlnews/2019/8/428960.shtm"   title="中国计算机学会推荐中文科技期刊目录" target="_blank">中国计算机学会推荐中文科技期刊目录</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2019/7/428772.shtm"   title="五类智库成果兰州发布" target="_blank">五类智库成果兰州发布</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2019/7/428703.shtm"   title="2018年全国教育事业发展统计公报发布" target="_blank">2018年全国教育事业发展统计公报发布</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2019/7/428538.shtm"   title="中外团队开发出高效灭蚊新方法" target="_blank">中外团队开发出高效灭蚊新方法</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2019/7/428488.shtm"   title="机器学习已能翻译失传已久的语言" target="_blank">机器学习已能翻译失传已久的语言</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2019/7/428402.shtm"   title="人工智能战胜世界顶尖德州扑克选手" target="_blank">人工智能战胜世界顶尖德州扑克选手</a></li>
+            </ul>
+          </div>
+          
+          
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=3" class="white01">生命科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445259.shtm" target="_blank" class="Black04">我国科学家在茶树起源演化研究上取得...</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/8/444693.shtm" target="_blank" > <img src="/upload/news/images/2020/8/20208271720272480.jpg" width="97" height="73"  alt="植物生长好坏，“殖民”根菌也有决定权" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445217.shtm" target="_blank" >胰岛细胞皮下移植动物试验成功</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445204.shtm" target="_blank" >从“80后”变“90后”的袁隆平许下生...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445090.shtm" target="_blank" >熬夜后睡更香？研究发现影响睡眠质量...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=6" class="white01">医学科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2018/10/418809.shtm" target="_blank" class="Black04">第三届北京国际医学工程大会召开</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/9/444960.shtm" target="_blank" > <img src="/upload/news/images/2020/9/2020928942161.jpg" width="97" height="73"  alt="异常脑细胞导致患儿吞咽困难" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445222.shtm" target="_blank" >习近平向国家勋章国家荣誉称号得主颁...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445228.shtm" target="_blank" >陈薇：抗击疫情，“除了胜利，别无选...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445226.shtm" target="_blank" >张定宇：在“风暴之眼”挑战极限</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=7" class="white01">化学科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445221.shtm" target="_blank" class="Black04">追记申泮文：他把化学元素周期表“变...</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/8/443819.shtm" target="_blank" > <img src="/upload/news/images/2020/8/202087934223270.jpg" width="97" height="73"  alt="化学家创造出最亮荧光材料" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445120.shtm" target="_blank" >中科院与韩国国家科技理事会举办能源...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445114.shtm" target="_blank" >“华龙一号”全球首堆开始装料</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445072.shtm" target="_blank" >“明星”pi-分子养成记|“率先行动”...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=8" class="white01">工程材料</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445212.shtm" target="_blank" class="Black04">导航制导与控制专家陈定昌院士逝世</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/9/445148.shtm" target="_blank" > <img src="/upload/news/images/2020/9/2020961856453090.jpg" width="97" height="73"  alt="“慧眼”直测宇宙最强磁场" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445150.shtm" target="_blank" >我国可重复使用试验航天器成功着陆</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445097.shtm" target="_blank" >我国成功发射可重复使用试验航天器</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445054.shtm" target="_blank" >科研人员在新型半导体激光器研发上取...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="center">
+            <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="31%" align="center" valign="middle" class="green">科报快讯</td>
+                <td width="59%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-V-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+              <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445235.shtm"   title="清华新学期全方位推进线下线上融合式教学" target="_blank">清华新学期全方位推进线下线上融合式教学</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445208.shtm"   title="2020智能科技与产业发展论坛召开" target="_blank">2020智能科技与产业发展论坛召开</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445205.shtm"   title="抗辐射菌可在地球到火星之旅中存活" target="_blank">抗辐射菌可在地球到火星之旅中存活</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445197.shtm"   title="京津冀国际科技成果应用场景峰会在京召开" target="_blank">京津冀国际科技成果应用场景峰会在京召开</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445201.shtm"   title="脑肿瘤有了“终结者”" target="_blank">脑肿瘤有了“终结者”</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445186.shtm"   title="近20年航空对气候变暖的贡献翻番" target="_blank">近20年航空对气候变暖的贡献翻番</a></li>
+            </ul>
+          </div>
+         <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">动态</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-T-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+               <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445241.shtm"   title="全国医院擂台赛（县域类）首场总决赛收官" target="_blank">全国医院擂台赛（县域类）首场总决赛收官</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445147.shtm"   title="博彦科技聚焦数字化创新，探讨疫后产业发展" target="_blank">博彦科技聚焦数字化创新，探讨疫后产业发展</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445134.shtm"   title="自动驾驶小巴阿波龙客串服贸会“接驳员”" target="_blank">自动驾驶小巴阿波龙客串服贸会“接驳员”</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445126.shtm"   title="首款人胎盘间充质干细胞凝胶新药启动临床试验" target="_blank">首款人胎盘间充质干细胞凝胶新药启动临床试验</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445117.shtm"   title="中关村科学城促高校院所成果转化落地" target="_blank">中关村科学城促高校院所成果转化落地</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445084.shtm"   title="猪肉和鸡肉肌苷酸检测质控标准品发布" target="_blank">猪肉和鸡肉肌苷酸检测质控标准品发布</a></li>
+            </ul>
+          </div>
+         
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">院 所</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-Y-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+             <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/444916.shtm"   title="“催”陈出新 谋“化”未来|重点实验室巡礼" target="_blank">“催”陈出新 谋“化”未来|重点实验室巡礼</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444835.shtm"   title="中科院升级植被病虫害遥感监预测系统" target="_blank">中科院升级植被病虫害遥感监预测系统</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444753.shtm"   title="中科院计算所与昆山市签署战略合作协议" target="_blank">中科院计算所与昆山市签署战略合作协议</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444670.shtm"   title="科学家在三峡发现典型埃迪卡拉化石叶状体新类型" target="_blank">科学家在三峡发现典型埃迪卡拉化石叶状体新类型</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444504.shtm"   title="王丛林升任中国核动力研究设计院院长" target="_blank">王丛林升任中国核动力研究设计院院长</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444007.shtm"   title="“信息高铁”助力构筑巨灾模型" target="_blank">“信息高铁”助力构筑巨灾模型</a></li>
+            </ul>
+          </div>
+          
+          
+          
+          
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="21%" align="center" valign="middle" class="green">观 点</td>
+                <td width="69%" class="green">&nbsp;</td>
+                <td width="10%" class="more"><a href="/morenews-6-1.aspx">更多&gt;&gt;</a></td>
+              </tr>
+            </table>
+          </div>
+          <div class="ntit02"></div>
+          <div class="boxm">
+            <ul>
+              <li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/445074.shtm"   title="人民日报评论：研究生教育关键在高质量" target="_blank">人民日报评论：研究生教育关键在高质量</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/9/444918.shtm"   title="教育研究需围绕教育现实" target="_blank">教育研究需围绕教育现实</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444861.shtm"   title="创新谈：加快培养工业互联网跨界人才" target="_blank">创新谈：加快培养工业互联网跨界人才</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444692.shtm"   title="科研人才评价改革如何“立新”" target="_blank">科研人才评价改革如何“立新”</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444429.shtm"   title="集成电路高质量发展需疏“堵点”补“断点”" target="_blank">集成电路高质量发展需疏“堵点”补“断点”</a></li><li>·<a href="http://news.sciencenet.cn/htmlnews/2020/8/444416.shtm"   title="科技成果转化服务重在生态打造" target="_blank">科技成果转化服务重在生态打造</a></li>
+            </ul>
+          </div>
+         
+           
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=9" class="white01">信息科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445189.shtm" target="_blank" class="Black04">中国成功发射高分十一号02星</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/7/443427.shtm" target="_blank" > <img src="/upload/news/images/2020/7/20207291611221530.jpg" width="97" height="73"  alt="新方法帮量子计算机解决材料问题" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445176.shtm" target="_blank" >八节点新型量子通信网试验成功</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445165.shtm" target="_blank" >北斗，为用户提供丰富广泛的应用服务</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445124.shtm" target="_blank" >中奥学者首次实现高保真度32维量子纠...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=10" class="white01">地球科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445252.shtm" target="_blank" class="Black04">中美科学家发现5.5亿年前海底“树叶”</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/8/444627.shtm" target="_blank" > <img src="/upload/news/images/2020/8/20208261656295660.jpg" width="97" height="73"  alt="古老线索揭秘末次冰期气候" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445167.shtm" target="_blank" >科学家发现最接近金丝猴祖先的化石</a></li>
+    
+    <li><a href="/htmlnews/2020/8/444887.shtm" target="_blank" >地球固态内核仅十几亿岁 有助了解地...</a></li>
+    
+    <li><a href="/htmlnews/2020/8/444839.shtm" target="_blank" >科学家构建北方草甸退化草地系统性修...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=4" class="white01">数理科学</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/9/445218.shtm" target="_blank" class="Black04">“吴伟仁星”，你好！</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/9/445050.shtm" target="_blank" > <img src="/upload/news/images/2020/9/2020941029199180.jpg" width="97" height="73"  alt="迄今最强黑洞合并事件被发现" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445214.shtm" target="_blank" >玉兔二号再立新功！打开月球背面“隐...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445206.shtm" target="_blank" >6学者热议中国数学教育的困境与出路</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445044.shtm" target="_blank" >天文学家首次发现中等质量黑洞存在的...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+          
+ <div class="ltit001">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="27%" align="center" valign="middle" class="white01"><a href="/fieldlist.aspx?id=5" class="white01">管理综合</a></td>
+                <td width="73%" class="more">&nbsp;</td>
+              </tr>
+            </table>
+          </div>
+          <div class="Black04"><a href="/htmlnews/2020/6/441483.shtm" target="_blank" class="Black04">直播|中国科学家与Cell Press活动</a></div>
+          <div style="margin-bottom:15px">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="30%"> 
+<a href="/htmlnews/2020/8/443989.shtm" target="_blank" > <img src="/upload/news/images/2020/8/20208111433416440.jpg" width="97" height="73"  alt="茶产业如何打造下一个万亿级目标" /> </a>
+    
+               </td>
+                <td width="70%"><div class="nlist">
+                  <ul>
+                 
+    <li><a href="/htmlnews/2020/9/445253.shtm" target="_blank" >清华大学迎来本科新生 国际学生来自4...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445229.shtm" target="_blank" >科技部：让海内外人才享受“中国机遇...</a></li>
+    
+    <li><a href="/htmlnews/2020/9/445224.shtm" target="_blank" >教育类研究生和公费师范生将免试认定...</a></li>
+    
+                  </ul>
+                </div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+
+                 
+      <div class="rtit">
+        <p>每日全部新闻</p>
+      </div>
+     
+      <div >
+          
+<style type="text/css">
+    #oContainer {
+                  width: 235px;
+                  padding: 3px;
+                  background-color: #fff;
+                  border-left: buttonhighlight 1px solid;
+                  border-top: buttonhighlight 1px solid;
+                  border-right: buttonshadow 1px solid;
+                  border-bottom: buttonshadow 2px solid;
+                  cursor:pointer;
+    }
+    .DateTable {
+    width: 235px;
+                  font: 10pt;
+                  word-break: break-all;
+    }
+    .WeekTd, .BlankTd {
+                  font: 10pt;
+                  border: 1px solid menu;
+    }
+    .Today {
+                  font: 10pt;
+                  color: red;
+                  cursor:pointer
+                  position: relative;
+                  left: 1px;
+                  top: 1px;
+                  border-left: 1px solid dimgray;
+                  border-top: 1px solid dimgray;
+                  border-right: 1px solid white;
+                  border-bottom: 1px solid white;
+    }
+    .MonthTd {
+                  font: 10pt;
+              
+                 cursor:pointer；
+                  border: 1px solid menu;
+                  zmm: expression(onmouseenter = function() {
+                                  style.color = 'red';
+                       },
+                       onmouseout = function() {
+                                  style.color = '';
+                       });
+    }
+    .SelectTd {
+                  border: 1px solid menu;
+    }
+    .over {
+                  position: relative;
+                 cursor:pointer;
+                  border-right: 1px solid buttonshadow;
+                  border-bottom: 1px solid buttonshadow;
+                  border-left: 1px solid buttonhighlight;
+                  border-top: 1px solid buttonhighlight;
+    }
+    .out {
+                  border-left: 1px solid buttonface;
+                  border-top: 1px solid buttonface;
+                  border-right: 1px solid buttonface;
+                  border-bottom: 1px solid buttonface;
+    }
+    .down {
+                  position: relative;
+                  left: 1px;
+                  top: 1px;
+                  border-left: 1px solid dimgray;
+                  border-top: 1px solid dimgray;
+                  border-right: 1px solid white;
+                  border-bottom: 1px solid white;
+    }
+</style>
+<script type="text/javascript" src="/js/newsDate.js"></script>
+<div id="oContainer"></div>
+      </div>
+       <div style="height:10px; clear:both; line-height:10px">&nbsp;</div> 
+     
+      <div class="rbotbox">
+        <div class="rbot01"><a   onclick="showandhide('byhits','byreplys')" style="cursor:pointer">一周新闻排行</a></div>
+        <div class="rbot02"><a   onclick="showandhide('byreplys','byhits')" style="cursor:pointer">一周评论排行</a></div>
+      </div>
+      <div id="byhits">
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">1</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445009.shtm" target="_blank">爱国求实勇担当  言传身教筑家风</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">2</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444978.shtm" target="_blank">罗玉峰被免去华东交通大学校长职务</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">3</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445149.shtm" target="_blank">单项奖金约七百万！2020未来科学大...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">4</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445020.shtm" target="_blank">科学家实现反转浮力</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">5</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445012.shtm" target="_blank">超9成SCI论文发在国外！中文期刊差...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">6</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444955.shtm" target="_blank">高校留才靠什么？粤港澳大湾区人才...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">7</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445118.shtm" target="_blank">太原理工大学召开工作研讨会</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">8</td>
+            <td width="92%"><a href="/htmlnews/2020/9/445159.shtm" target="_blank">科技部召开中青年科学家发展座谈会</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">9</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444943.shtm" target="_blank">第七届树兰医学奖初评结果名单公示</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh" valign="top">10</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444975.shtm" target="_blank">北科院原总工程师王小珂接受监察调...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      </div>
+          <div id="byreplys" style="display:none">
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">1</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444930.shtm" target="_blank">基金委科研诚信建设办公室发布2项目...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">2</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444931.shtm" target="_blank">九天微星卫星工厂开工，拟年产百颗...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist1">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">3</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444926.shtm" target="_blank">国务院联防联控机制印发《进一步推...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">4</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444914.shtm" target="_blank">中国疾控中心等多部门共同发起“减...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">5</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444920.shtm" target="_blank">河北大学湿地修复技术实验室获批省...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">6</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444896.shtm" target="_blank">华东理工大学在癌症纳米医学领域获...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">7</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444923.shtm" target="_blank">国务院：进一步推进新冠病毒核酸检...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">8</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444918.shtm" target="_blank">教育研究需围绕教育现实</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">9</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444919.shtm" target="_blank">量子计算机首次成功模拟化学反应</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="newrlist2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="8%" class="wh"  valign="top">10</td>
+            <td width="92%"><a href="/htmlnews/2020/9/444921.shtm" target="_blank">卫健委：31日新增确诊10例 均为境外...</a></td>
+          </tr>
+        </table>
+      </div>
+      
+      </div>
+      <div class="rtit" style="margin-top:20px;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="79%"><p>新闻专题</p></td>
+            <td width="21%" class="more"><a href="/zt/">更多&gt;&gt;</a></td>
+          </tr>
+        </table>
+      </div>
+       
+      <div class="nbanner1"><a href="/news/sub24.aspx?id=3659"  >
+      <img src="..//admin/upload/20208271670728.jpg"  width="234" height="62" alt=""  border="0" /></a></div>
+      <div class="zhunanti"><a href="/news/sub24.aspx?id=3659" >
+     “率先行动”计划</a></div>
+      
+      <div class="nbanner1"><a href="/news/sub24.aspx?id=3627"  >
+      <img src="..//admin/upload/20207219340442.jpg"  width="234" height="62" alt=""  border="0" /></a></div>
+      <div class="zhunanti"><a href="/news/sub24.aspx?id=3627" >
+     重点实验室巡礼</a></div>
+      
+      
+      <div class="zhibo">
+        <p style="margin-left:13px"><a href="https://v.sciencenet.cn/index"  style="color:#fff" target="_blank">视频直播</a></p>
+      </div>
+      <div  class="nlist">
+         <ul>
+                   <li>·<a href="https://v.sciencenet.cn/detail/v_5f4c6e18e4b0182a9832c8f2/3" title="Science Advances | 3D打印心脏瓣膜" target="_blank">Science Advances | 3D打印心脏瓣膜</a></li><li>·<a href="https://v.sciencenet.cn/detail/v_5f489704e4b0182a9832b486/3" title="Nature｜首个0.1毫米机器人问世" target="_blank">Nature｜首个0.1毫米机器人问世</a></li><li>·<a href="https://v.sciencenet.cn/detail/v_5f47b8c1e4b011878733cd8d/3" title="PNAS｜植物干细胞：两个明星基因的“星星”相“吸”" target="_blank">PNAS｜植物干细胞：两个明星基因的“..</a></li><li>·<a href="https://v.sciencenet.cn/detail/v_5f460936e4b0118787336d10/3" title="西藏羌塘藏羚羊产仔迁徙科考获得新发现" target="_blank">西藏羌塘藏羚羊产仔迁徙科考获得新发..</a></li>
+                  </ul>
+      </div>
+       <div class="bzbox">
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="59%" align="center" valign="middle"><div class="bzfont"><a href="http://news.sciencenet.cn/dz/dznews_photo.aspx" target="_blank" >《中国科学报》</a><br />
+                  <span class="bzfont02">电子版</span></div>
+                  <div class="bzfont01">2020-9-8</div>
+                  <div>
+                    <table width="90%" border="0" cellspacing="0" cellpadding="0" style="margin:10px;">
+                      <tr>
+                      
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34993" 
+                          target="_blank">
+                           1
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34994" 
+                          target="_blank">
+                           2
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34995" 
+                          target="_blank">
+                           3
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34996" 
+                          target="_blank">
+                           4
+                          </a>
+                         </div></td>
+                        </tr><tr>
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34997" 
+                          target="_blank">
+                           5
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34998" 
+                          target="_blank">
+                           6
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34999" 
+                          target="_blank">
+                           7
+                          </a>
+                         </div></td>
+                        
+                        <td><div class="szbox02">
+                        <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=35000" 
+                          target="_blank">
+                           8
+                          </a>
+                         </div></td>
+                        </tr><tr>
+                      </tr>
+                      
+                    </table>
+                  </div></td>
+                <td width="41%" align="center" valign="top" ><div >
+                 
+                                    <a href="http://news.sciencenet.cn/dz/dznews_photo.aspx?id=34993"  target="_blank">
+                                        <img src="http://news.sciencenet.cn//dz/upload/2020/9/202097222918318.gif" width="80" height="118"
+                                            border="0" alt="" /></a>
+                                    
+                </div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="bzbox">
+          <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="59%" align="center" valign="middle"><div class="bzfont"><a href="http://www.sciencenet.cn/dz/showdz.aspx?id=1159" target="_blank">科学网电子杂志</a><br />
+                
+                  <span class="bzfont02">每周免费</span></div>
+                  <div style="margin:5px; "><a href="http://www.sciencenet.cn/dz/add_user.aspx" target="_blank"><img src="/news/images/dingyue.gif" width="107" height="26" /></a></div>
+                  <div style="margin:5px; "><a href="http://www.sciencenet.cn/dz/add_user.aspx" target="_blank"><img src="/news/images/chaxun.gif" width="107" height="26" /></a></div>
+                  <div></div></td>
+                <td width="41%" align="center" valign="top" ><div >
+                 
+                        <a href="http://www.sciencenet.cn/dz/showdz.aspx?id=1159"  target="_blank">
+                            <img src="http://www.sciencenet.cn/dz/upload/202092184818152.jpg" width="80" height="118"
+                                border="0"  alt="" /></a>
+                        
+                </div></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      <div class="rtit" style="margin-top:20px;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="79%"><p>友情链接</p></td>
+            <td width="21%" class="more"></td>
+          </tr>
+        </table>
+      </div>
+      <div  class="nlist" style="margin:10px">
+      
+        <a target="_blank" href="http://news.gucas.ac.cn/">中国科学院大学</a>  | <a target="_blank" href="http://www.001en.com/">中国人教育网</a> 
+        <br />
+       
+        
+<a target="_blank" href="http://www.letpub.com.cn/ ">美国LetPub专业编辑</a>&nbsp;<br />
+       
+<a href="http://top100.imicams.ac.cn/home" target="_blank">中国医院科技影响力排行</a>
+<br><a href="http://www.oborr.com" target="_blank">一带一路研究院
+</a> 
+	</div>
+    </div>
+  </div>
+ <style>
+#footer{ background:#890f0e; text-align:center; padding:10px; color:#FFF; font-size:12px;}
+#footer a{color:#FFF; font-size:12px;}
+</style>
+<div id="footer"><a href="http://www.sciencenet.cn/aboutus/" target="_blank">关于我们</a> | <a href="http://www.sciencenet.cn/shengming.aspx"  target="_blank">网站声明</a> | <a href="http://www.sciencenet.cn/tiaokuang.aspx"  target="_blank">服务条款</a> | <a href="http://www.sciencenet.cn/contact.aspx"  target="_blank">联系方式</a> | <a href="http://www.sciencenet.cn/RSS.aspx">RSS</a> | <a href="http://www.sciencenet.cn/stimes/">中国科学报社</a>
+			  <a href="http://www.beian.miit.gov.cn" target="_blank" >京ICP备07017567号-12</a>&nbsp;京公网安备  11010802032783<br>Copyright @ 2007-<script type="text/javascript">var Date3 = new Date();var year32 = Date3.getFullYear();document.write(year32);</script> 中国科学报社 All Rights Reserved<br>
+地址：北京市海淀区中关村南一条乙三号<br>
+电话：010-62580783
+<span style="display:none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcbf293a46e1e62385b889174378635f1' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</span>
+</div> 
+</div>
+  
+</body>
+
+</html>
+
