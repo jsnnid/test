@@ -1,0 +1,111 @@
+body {
+    font-family: "Microsoft Yahei";
+    line-height: 1.8;
+    color: #100903;
+}
+.header .layui-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    background: none;
+}
+.header .layui-nav .layui-nav-item {
+    margin: 0 20px;
+}
+.header-index {
+    border: none;
+    background-color: #100903;
+    /* margin-bottom: 20px; */
+}
+.header .sitename {
+    position: absolute;
+    left: 0;
+}
+
+.header .sitename strong {
+    font-size: 18px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    color: #bfbfbf;
+}
+
+.layui-main {
+    max-width: 1140px;
+    width: auto;
+    margin: auto;
+}
+
+#ppt {
+    margin-bottom: 20px;
+}
+.articles img {
+    border-radius: 5px;
+    margin-top: 10px;
+
+    width: 100%;
+    max-height: 200px;
+}
+.articles ul.col2 li {
+    width: 50%;
+    float: left;
+}
+.articles ul li a {
+    height: 28px;
+    line-height: 2.2;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 80%;
+    display: inline-block;
+}
+.articles ul li .datetime {
+    color: #ababab;
+}
+.articles .layui-badge-dot {
+    margin-right: 5px;
+}
+.footer {
+    margin-top: 50px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 15px;
+    background-color: #000;
+    color: #666;
+}
+.footer p {
+    display: inline-block;
+    margin: auto 10px;
+}
+.layui-container h1 {
+    margin-top: 50px;
+}
+.article_info .archive_config span {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #666;
+}
+.article_info .archive_config span i {
+    margin-right: 5px;
+}
+.article_info div p {
+    margin: 10px auto;
+    text-indent: 2em;
+}
+.article_info .layui-timeline div strong{
+    color: #5FB878;
+}
+.article_info .content{
+    margin-bottom: 50px;
+}
+
+.text-right{
+    text-align: right;
+}
+@media screen and (max-width: 750px) {
+    .layui-main {
+        margin: auto 10px;
+    }
+}
