@@ -1,4 +1,6 @@
 var fs = require("fs");
+var exec = require('child_process').exec;
+
 
 var gitignore_txt = fs.readFileSync('.gitignore').toString()
 
@@ -42,10 +44,13 @@ function main() {
     }
 
 
-    fs.writeFileSync('.gitignore', gitignore_txt);
+    // fs.writeFileSync('.gitignore', gitignore_txt);
 
+    exec("git add . && git commit -m '1' && git push", function (error, stdout, stderr) {
+        // 获取命令执行的输出
+        console.log(stdout);
+    });
 
-    
 }
 
 
