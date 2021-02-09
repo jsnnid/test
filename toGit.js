@@ -30,6 +30,7 @@ img.forEach(element => {
 
 main();
 function main() {
+    console.log("\n\n-----------------------\n\n");
     let fileN = 0;
     for (let u in imgDirFileSite) {
         // console.log(u, imgDirFileSite[u]);
@@ -44,6 +45,7 @@ function main() {
         }
     }
 
+    console.log(Object.keys(imgDirFileSite).length, gitignore_txt.length);
 
     fs.writeFileSync('.gitignore', gitignore_txt);
 
