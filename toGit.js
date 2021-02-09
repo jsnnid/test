@@ -35,7 +35,7 @@ function main() {
     for (let u in imgDirFileSite) {
         // console.log(u, imgDirFileSite[u]);
 
-        gitignore_txt = gitignore_txt.replace(imgDirFileSite[u] + "\n", "");
+        gitignore_txt = gitignore_txt.replace(u + "\n", "");
 
         fileN += imgDirFileSite[u];
         delete imgDirFileSite[u];
@@ -53,8 +53,9 @@ function main() {
         // 获取命令执行的输出
         console.log(stdout);
 
-        main();
+        // main();
     });
+
 
 }
 
