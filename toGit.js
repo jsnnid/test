@@ -49,11 +49,13 @@ function main() {
 
     fs.writeFileSync('.gitignore', gitignore_txt);
 
-    exec("git add . && git commit -m '1' && git push", function (error, stdout, stderr) {
+    exec("git add . && git commit -m '" + fileN + "' && git push", function (error, stdout, stderr) {
         // 获取命令执行的输出
         console.log(stdout);
 
-        // main();
+        setTimeout(function () {
+            main();
+        }, 2000);
     });
 
 
