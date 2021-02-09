@@ -37,6 +37,7 @@ function main() {
         gitignore_txt = gitignore_txt.replace(imgDirFileSite[u] + "\n", "");
 
         fileN += imgDirFileSite[u];
+        delete imgDirFileSite[u];
 
         if (fileN > 600) {
             break;
@@ -44,11 +45,13 @@ function main() {
     }
 
 
-    // fs.writeFileSync('.gitignore', gitignore_txt);
+    fs.writeFileSync('.gitignore', gitignore_txt);
 
     exec("git add . && git commit -m '1' && git push", function (error, stdout, stderr) {
         // 获取命令执行的输出
         console.log(stdout);
+
+        main();
     });
 
 }
